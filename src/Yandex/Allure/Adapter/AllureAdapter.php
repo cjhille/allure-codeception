@@ -50,7 +50,8 @@ class AllureAdapter extends Extension
         Events::TEST_SKIPPED => 'testSkipped',
         Events::TEST_END => 'testEnd',
         Events::STEP_BEFORE => 'stepBefore',
-        Events::STEP_FAIL => 'stepFail',
+        //temporarily commented out since it was removed in codeception
+        //Events::STEP_FAIL => 'stepFail',
         Events::STEP_AFTER => 'stepAfter'
     ];
 
